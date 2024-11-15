@@ -12,7 +12,7 @@ function Social(props) {
 }
 
 Social.propTypes = {
-    id: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
     url: PropTypes.string.isRequired,
     icon: PropTypes.string,
 };

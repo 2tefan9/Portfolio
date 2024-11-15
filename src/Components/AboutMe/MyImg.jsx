@@ -35,11 +35,5 @@ ProfilePicture.propTypes = {
     hoverEffect: PropTypes.bool,
 };
 
-ProfilePicture.defaultProps = {
-    alt: 'Profile Picture',
-    size: 'medium',
-    hasBorder: false,
-    hoverEffect: false,
-};
 
 export default ProfilePicture;

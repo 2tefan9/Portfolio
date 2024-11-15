@@ -7,6 +7,7 @@ import PropTypes from "prop-types";
 function createIcon(iconProps) {
     return (
         <Social
+            key={iconProps.id}
             id={iconProps.id}
             url={iconProps.url}
             icon={iconProps.icon}

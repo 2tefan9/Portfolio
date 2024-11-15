@@ -38,8 +38,5 @@ ModalComponent.propTypes = {
     children: PropTypes.node.isRequired,
 };
 
-ModalComponent.defaultProps = {
-    title: 'Modal',
-};
 
 export default ModalComponent;

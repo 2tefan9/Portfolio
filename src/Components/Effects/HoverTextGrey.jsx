@@ -15,8 +15,5 @@ HoverTextGray.propTypes = {
     hoverClass: PropTypes.string,
 };
 
-HoverTextGray.defaultProps = {
-    hoverClass: 'group',
-};
 
 export default HoverTextGray;
