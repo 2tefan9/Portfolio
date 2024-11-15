@@ -8,7 +8,7 @@ function AboutMe() {
                 {/* Immagine del profilo */}
                 <div className="flex-shrink-0 s ">
                     <ProfilePicture
-                        src="./src/assets/img/FotoProfilo.svg"
+                        src="/img/FotoProfilo.svg"
                         alt="User Profile"
                         size="largest"
                         hasBorder={true}
