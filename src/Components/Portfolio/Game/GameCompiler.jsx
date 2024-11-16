@@ -9,9 +9,9 @@ import SP_Desc from "./ShatteredPeak/SP_Desc.jsx";
 
 
 const GameCompiler = [
-    { gameId:1 , gameName: "Math Rain" ,gameTeam:"1 Member", gameTime:"3 Weeks", gameVideo: "/video/NumberRain.mp4", gameDescription:<MR_Desc /> , gameLearning:<MR_Learn onKeywordClick={() => {}} />},
+    { gameId:1 , gameName: "Math Rain" ,gameTeam:"1 Member", gameTime:"3 Weeks", gameVideo: "dist/video/NumberRain.mp4", gameDescription:<MR_Desc /> , gameLearning:<MR_Learn onKeywordClick={() => {}} />},
     { gameId:2 , gameName:"Dumby Dumblings",gameTeam:"6 Members", gameTime:"3 Months",  gameForm: "https://orbeetalstudios.github.io/BuildForPortfolioSite/", gameDescription:<DD_Desc />,gameLearning:<DD_Learn onKeywordClick={() => {}} />},
-    { gameId:3 , gameName:"The Shattered Peak",gameTeam:"12 Members", gameTime:"3 Months", gameVideo: "/video/TheShatteredPeak Trailer.mp4", gameDescription:<SP_Desc /> ,gameLearning:<SP_Learn onKeywordClick={() => {}} />},
+    { gameId:3 , gameName:"The Shattered Peak",gameTeam:"12 Members", gameTime:"3 Months", gameVideo: "dist/video/TheShatteredPeak Trailer.mp4", gameDescription:<SP_Desc /> ,gameLearning:<SP_Learn onKeywordClick={() => {}} />},
 
     // Aggiungi altri giochi da compilare
 ];

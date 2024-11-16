@@ -7,9 +7,9 @@ function Certification() {
 
     // Array di URL dei certificati (PDF o immagini)
     const certificates = [
-        '/Certificato DBGA Level1.pdf',
-        '/Certificato DBGA Level2.pdf',
-        '/GP Certificates.pdf'
+        'dist/Certificato DBGA Level1.pdf',
+        'dist/Certificato DBGA Level2.pdf',
+        'dist/GP Certificates.pdf'
     ];
 
     const openModal = () => {
